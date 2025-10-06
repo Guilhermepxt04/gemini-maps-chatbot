@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rota Acessivel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+
+        <div class="chat">
+
+            <div class="chat-header">
+                <h2>Seu próximo destino começa aqui!</h2>
+                <p>O que mais te anima ao planejar sua viagem: conhecer destinos adaptados, aproveitar hospedagens
+                    confortáveis
+                    ou compartilhar suas próprias experiências de viagem?</p>
+            </div>
+
+            <div id="chat-mensagens">
+                <div class="message bot-message">Olá! Estou pronto para te ajudar a encontrar lugares e rotas que sejam
+                    acessíveis. Onde você gostaria de ir?</div>
+            </div>
+
+            <form id="chat-form">
+                <textarea type="text" id="chat-input" placeholder="Digite sua mensagem..."></textarea>
+                <button type="submit">
+                    <img src="images/vector.png" alt="Enviar">
+                </button>
+                <button id="botao-voz">
+                    <img src="images/voz.png" alt="Botao para entrada de audio">
+                </button>
+                <button id="botao-pause">
+                    <img id="icone-pause" src="images/pause.png" alt="botao para pausar o audio da resposta do gemini">
+                </button>
+            </form>
+        </div>
+
+        <div id="maps"></div>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=SUA CHAVE DO MAPS AQUI&callback=initMap" async defer></script>
+</body>
+
+</html>
