@@ -45,7 +45,7 @@ git clone https://github.com/seu-usuario/gemini-maps-chatbot.git
 
 - **2- Configure as Chaves de API**:
 
-Para que a aplicação funcione, você precisará obter suas próprias chaves de API para o Google Gemini e o Google Maps.
+Para que a aplicação funcione, você precisa obter suas próprias chaves de API para o Google Gemini e o Google Maps.
 
 **Google Maps API Key**
 
