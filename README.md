@@ -86,5 +86,5 @@ Após configurar as chaves, basta abrir o arquivo index.html no seu navegador de
 - Você também pode clicar no ícone de microfone para fazer sua pergunta por voz. (Se seu navegador suportar)
 ## Demonstração 🌐
 
-Veja um video de demonstração no [Linkedin](https://neo-vision-proanos.vercel.app)
+Veja um video de demonstração no [Linkedin](https://www.linkedin.com/posts/guilhermepeixotodev_gemini-googlemaps-api-activity-7381041795222196225-JFZW?utm_source=share&utm_medium=member_desktop&rcm=ACoAADSvqm4BwfNLs3BqscrhyYNGW9RrxxHDdoc)
 
